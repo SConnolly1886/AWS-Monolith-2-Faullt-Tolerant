@@ -178,3 +178,5 @@ Click `Publish`<br/>
 Click `view Post`
 
 This is all working as it should. A monolith Wordpress instance has been successfully created. Now the fun stuff begins! On to the next step. 
+
+[Step2-Launch-Template](https://github.com/SConnolly1886/AWS-Monolith-2-Fault-Tolerant/blob/main/Monolith2HA2.md)
