@@ -159,3 +159,6 @@ Great now the EFS is included in the launch template! The only problems now are:
 - there's a single RDS instance
 
 So, let's take care of that in the next steps...
+
+[Step4-ASG-ALB](https://github.com/SConnolly1886/AWS-Monolith-2-Fault-Tolerant/blob/main/Monolith2HA4.md)
+
