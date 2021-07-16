@@ -228,3 +228,6 @@ Now to simulate some load on the Wordpress Instance. Select an instance and SSM 
 run `stress -c 2 -v -t 3000`
 
 This will increase the CPU and test the ASG to see if it scales out and in again. Did it work? Great! Now to address the single RDS instance. Let's turn it into an Aurora cluster to make the database highly available and resilient. 
+
+
+[Step5-RDS-2-Aurora](https://github.com/SConnolly1886/AWS-Monolith-2-Fault-Tolerant/blob/main/Monolith2HA5.md)
