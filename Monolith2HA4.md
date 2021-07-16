@@ -1,10 +1,7 @@
 # Wordpress Web App - Single Server to an ASG
 Now that the user data for the Launch Template has been updated to include EFS, we can go forward and create an auto-scaling group (ASG). From there, an application load balancer (ALB) can be placed in front of the ASG to handle traffic and perform health checks to guarantee no customer interruption.
 
-![monolith](https://user-images.githubusercontent.com/62077185/126010635-7883a0c2-29d9-4bfb-b57e-c72f4e4e4657.png)
-![monolith2HA](https://user-images.githubusercontent.com/62077185/126010646-89b388de-6c9d-4fe1-a399-f0d81dcaa47b.png)
-
-
+![ec2asg](https://user-images.githubusercontent.com/62077185/126012540-798a2819-6a9d-4125-a51d-e05552e2e18b.png)
 
 # Create the Application Load Balancer (ALB)
 In the EC2 console move to `Load Balancers` and create a load balancer. 
