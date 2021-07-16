@@ -1,6 +1,8 @@
 # First Steps a HA/Fault Tolerant Environment
 Now that you know how to create a monolith wordpress EC2 instance you can go ahead and terminate that instance. Say goodbye to those pictures. Monoliths are easy to setup by if one piece fails, so do all of the others. This is the reason why it's better to create a more resilient infrastructure that can respond to failure in a better way. 
 
+![monolith2HAbegin](https://user-images.githubusercontent.com/62077185/126014019-40fe0e81-c363-4a27-8f1c-00a677864027.png)
+
 What should be done next is to create a `Launch Template`. Use the user data that was used to create the monolith EC2.  
 
 ```
@@ -84,10 +86,6 @@ A launch template will make it easier to automate things and going forward but t
 The next step is to separate the database from the EC2 instance. This will be done by changing over the MariaDB on the EC2 instance into an RDS instance of its own. With that done the Web and Database will be able to scale independently from one another. Now the data can outlive the application if necessary. 
 
 ### Creating RDS Subnets Groups
-
-![monolith](https://user-images.githubusercontent.com/62077185/126010635-7883a0c2-29d9-4bfb-b57e-c72f4e4e4657.png)
-![monolith2HA](https://user-images.githubusercontent.com/62077185/126010646-89b388de-6c9d-4fe1-a399-f0d81dcaa47b.png)
-
 
 Subnets groups allow RDS to select subnets ranges. In this case it will be the 3 private DB subnets (DBSubnetA,B,C). 
 At this point RDS can then decide which subnet to use. 
