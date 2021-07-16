@@ -1,10 +1,7 @@
 # From RDS to Aurora
 In this last step the RDS instance will be converted to a 3 AZ Aurora cluster to create a highly available and resilient database tier.
 
-![monolith](https://user-images.githubusercontent.com/62077185/126010635-7883a0c2-29d9-4bfb-b57e-c72f4e4e4657.png)
-![monolith2HA](https://user-images.githubusercontent.com/62077185/126010646-89b388de-6c9d-4fe1-a399-f0d81dcaa47b.png)
-
-
+![rdsaurora](https://user-images.githubusercontent.com/62077185/126012537-2675e822-0d58-4c36-94bf-643a2e4ac996.png)
 
 ## Take a Snapshot of the RDS instance
 `Take Snapshot` of the RDS instance and wait until the process finishes. This is really all it takes to convert from RDS to Aurora 
@@ -66,6 +63,8 @@ move to the auto scaling group
 - `start instance refresh`
 - wait for a new instance to be created
 - test it by opening new instance
+
+![monolith2HA](https://user-images.githubusercontent.com/62077185/126010646-89b388de-6c9d-4fe1-a399-f0d81dcaa47b.png)
 
 # All Done!
 From a monolith architecture to a highly available fault tolerant environment? Ahh yes please! Enjoy! Be sure to delete everything you've made if you want to avoid costs. 
