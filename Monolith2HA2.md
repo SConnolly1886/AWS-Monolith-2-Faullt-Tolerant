@@ -277,3 +277,5 @@ The advantage that Launch Templates have over Launch Configurations is the abili
 - single RDS instance
 - no ALB
 
+Let's concentrate on separating the web and application tier next: <br/>
+[Step3-Create-EFS](https://github.com/SConnolly1886/AWS-Monolith-2-Fault-Tolerant/blob/main/Monolith2HA3.md)
