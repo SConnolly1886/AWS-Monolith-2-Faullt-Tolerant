@@ -18,7 +18,7 @@ In this last step the RDS instance will be converted to a 3 AZ Aurora cluster to
 - `Subnet group` select `wordpressrdssubnetgroup`  
 - `Availability zone` select `No preference`  
 - `VPC security groups` select `Choose existing VPC security groups`
-- Remove `Default (VPC)` and select `WORDPRESSVPC-SGDatabase` (there will be random after this, thanks ok)  
+- Remove `Default (VPC)` and select `WORDPRESSVPC-SGDatabase` (With random num after)  
 - Ensure for `Encryption` its set to `Disable encryption`  
 - `Migrate`  
 
