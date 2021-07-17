@@ -2,7 +2,6 @@
 
 <img align="left" src="https://user-images.githubusercontent.com/62077185/126012542-80eb80e8-c785-4eed-bc69-c010caa120a7.png">
 
-# Creating an EFS File System for the Application Tier
 The next thing to do is to create an EFS file system for the Wordpress media that is currently stored on the EC2 instance. This area stores any media for posts uploaded when creating the post as well as theme data. Using EFS, you can share the media across all of the instances. The EFS, like the RDS Database, can outlive the Wordpress application. 
 
 ### File System Settings
