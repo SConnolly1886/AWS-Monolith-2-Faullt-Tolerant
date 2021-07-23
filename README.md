@@ -10,6 +10,12 @@ If anything were to happen to the EC2 instance you would lose access to the web 
 
 Separating the web, application and database into different tiers is a great way to create high availability and fault tolerance for monolith applications. This is achieved by separating each layer from one another and using multiple availability zones (AZ's). The application and database tiers will be placed in private subnets for increased security.  
 
+Check out the next steps:
+- [Step2-Launch-Template](https://github.com/SConnolly1886/AWS-Monolith-2-Fault-Tolerant/blob/main/Monolith2HA2.md)
+- [Step3-Create-EFS](https://github.com/SConnolly1886/AWS-Monolith-2-Fault-Tolerant/blob/main/Monolith2HA3.md)
+- [Step4-ASG-ALB](https://github.com/SConnolly1886/AWS-Monolith-2-Fault-Tolerant/blob/main/Monolith2HA4.md)
+- [Step5-RDS-2-Aurora](https://github.com/SConnolly1886/AWS-Monolith-2-Fault-Tolerant/blob/main/Monolith2HA5.md)
+
 ### How Can This Be Done?
 - create an auto-scaling group of EC2 instances in 3 public subnets behind an Application Load Balancer to distribute traffic for the web tier
 - create an EFS shared file system across 3 private subnets for the application tier
