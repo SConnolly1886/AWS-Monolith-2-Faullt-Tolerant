@@ -4,7 +4,7 @@
 
 
 ## Why change?
-In this example there is a Wordpress Web application that is run using a monolith architecture conisting of a single EC2 instance on AWS. This means that the web service, files and database are all on the EC2 instance. It's a classic setup and something you might find if you've just performed a "lift and shift", migrating an application from your on-premises environment to AWS. 
+In this example there is a Wordpress Web application that is run using a monolith architecture consisting of a single EC2 instance on AWS. This means that the web service, files and database are all on the EC2 instance. It's a classic setup and something you might find if you've just performed a "lift and shift", migrating an application from your on-premises environment to AWS. 
 
 If anything were to happen to the EC2 instance you would lose access to the web page, the files you've stored and the database attached to the Wordpress environment - in this case it's MariaDB. 
 
