@@ -1,5 +1,5 @@
 # First Steps a HA/Fault Tolerant Environment
-Now that you know how to create a monolith wordpress EC2 instance you can go ahead and terminate that instance. Say goodbye to those pictures. Monoliths are easy to setup by if one piece fails, so do all of the others. This is the reason why it's better to create a more resilient infrastructure that can respond to failure in a better way. 
+Now that you have created the wordpress EC2 instance you can go ahead and terminate that instance. Say goodbye to those pictures. Monoliths are easy to setup by if one piece fails, so do all of the others. This is the reason why it's better to create a more resilient infrastructure that can respond to failure in a better way. 
 
 ![monolith2HAbegin](https://user-images.githubusercontent.com/62077185/126014019-40fe0e81-c363-4a27-8f1c-00a677864027.png)
 
